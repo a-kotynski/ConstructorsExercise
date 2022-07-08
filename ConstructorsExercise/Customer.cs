@@ -12,7 +12,7 @@ namespace ConstructorsExercise
 
         public Customer()
         {
-            Orders = new List<Order>(); // if you use the constructors below the list will
+            Orders = new List<Order>(); // if you use the constructors below, the list will
                                         // become null - we solve it with adding : this()
         }
         public Customer(int id) : this() // this() is a constructor without parameters
